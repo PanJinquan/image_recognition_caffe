@@ -1,7 +1,6 @@
-%trainè®­ç»ƒæ•°æ®% 
-%è¶…å‚æ•°æ–‡ä»¶%
+%trainÑµÁ·Êı¾İ% 
+%³¬²ÎÊıÎÄ¼ş%
 
 D:/Caffe/caffe_gpu/bin/caffe.exe train ^
 -solver=config/solver.prototxt
 pause
-
