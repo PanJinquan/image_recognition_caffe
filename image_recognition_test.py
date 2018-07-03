@@ -13,9 +13,9 @@ import caffe
 #定义Caffe根目录
 # caffe_root = 'E:/Caffe-windows/caffe-windows/'
 #网络结构描述文件
-deploy_file = 'config/deploy.prototxt'
+deploy_file = 'config/caffenet/deploy.prototxt'
 #训练好的模型
-model_file = 'models/caffenet_train_iter_5000.caffemodel'
+model_file = 'models/caffenet/caffenet_train_iter_5000.caffemodel'
 
 #gpu模式
 #caffe.set_device(0)

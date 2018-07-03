@@ -2,5 +2,5 @@
 %超参数文件%
 
 D:/Caffe/caffe_gpu/bin/caffe.exe train ^
--solver=config/googlenet/solver.prototxt
+-solver=config/caffenet/solver.prototxt
 pause

@@ -1,0 +1,16 @@
+net: "config/caffenet/train_val.prototxt"
+test_iter: 30
+test_interval: 200
+base_lr: 0.1
+lr_policy: "step"
+gamma: 0.1
+stepsize: 1000
+display: 50
+max_iter: 5000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 900
+snapshot_prefix: "models/caffenet/caffenet_train"
+solver_mode: CPU
+type:"AdaDelta"
+delta:1e-6
