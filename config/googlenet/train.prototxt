@@ -6,7 +6,7 @@ layers {
   top: "label"
   data_param {
     source: "dataset/train_lmdb"
-    mean_file: "mean/AVA1_mean.binaryproto"
+    mean_file: "mean/image_mean.binaryproto"
     batch_size: 16
     crop_size: 227
     mirror: true

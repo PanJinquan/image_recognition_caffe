@@ -3,7 +3,7 @@
 # N.B. set the path to the face_48 train + val data dirs
 ######################################################################
 
-EXAMPLE=/home/ubuntu/caffeProject/image_recognition_caffe/dataset  #%lmdb文件的输出路径
+EXAMPLE=dataset  #%lmdb文件的输出路径
 DATA=/home/ubuntu/caffeProject/image_recognition_caffe/dataset     #train.txt和val.txt 文件的位置
 TOOLS=/home/ubuntu/caffe/build/tools                               #caffe格式转换的可执行文件，即convert_imageset的位置
 
