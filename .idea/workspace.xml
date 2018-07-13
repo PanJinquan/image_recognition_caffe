@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a2c0f-cbd2-4148-b4c1-d408a798efb9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/image_recognition_caffe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image_recognition_caffe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/googlenet/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/config/googlenet/solver.prototxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/googlenet/train.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/config/googlenet/train.prototxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/googlenet/val.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/config/googlenet/val.prototxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_lmdb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create_lmdb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_recognition_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_recognition_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/train_linux_caffenet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/train_linux_caffenet.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/train_win_caffenet.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tools/train_win_caffenet.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_image/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_image/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_image/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_image/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_linux.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train_linux.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/image_recognition_caffe$draft_file.coverage" NAME="draft_file Coverage Results" MODIFIED="1531288380839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_test.coverage" NAME="image_recognition_test Coverage Results" MODIFIED="1531290981310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_test.coverage" NAME="image_recognition_test Coverage Results" MODIFIED="1531446663722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$pytest.coverage" NAME="pytest Coverage Results" MODIFIED="1529925641614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_googLenet.coverage" NAME="image_recognition_googLenet Coverage Results" MODIFIED="1531287891297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$convert_mean.coverage" NAME="convert_mean Coverage Results" MODIFIED="1531284351477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mean" />
@@ -38,41 +24,8 @@
       <file leaf-file-name="image_recognition_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-              <folding>
-                <element signature="e#17#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/caffe/python/caffe/classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_val.prototxt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/caffenet/train_val.prototxt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_mean.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/convert_mean.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="e#22#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -121,10 +74,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="34" />
-    <option name="width" value="1621" />
-    <option name="height" value="953" />
+    <option name="x" value="178" />
+    <option name="y" value="114" />
+    <option name="width" value="1344" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -138,17 +91,6 @@
               <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="caffenet" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +100,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SmartAlbum/AVA_dataset" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -296,17 +238,16 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Python.测试自己的图像识别模型" />
       <item itemvalue="Python.pytest" />
       <item itemvalue="Python.image_recognition_test" />
       <item itemvalue="Python.convert_mean" />
-      <item itemvalue="Python.image_recognition_googLenet" />
       <item itemvalue="Python.draft_file" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.image_recognition_test" />
         <item itemvalue="Python.draft_file" />
-        <item itemvalue="Python.image_recognition_googLenet" />
         <item itemvalue="Python.convert_mean" />
         <item itemvalue="Python.pytest" />
       </list>
@@ -326,30 +267,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="34" width="1621" height="953" extended-state="0" />
-    <editor active="true" />
+    <frame x="178" y="114" width="1344" height="850" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35629454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35588634" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24367674" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.14188772" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.14136904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36817104" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +333,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/标签制作.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -413,18 +367,6 @@
     <entry file="file://$PROJECT_DIR$/shell_test.sh" />
     <entry file="file://$PROJECT_DIR$/train.sh" />
     <entry file="file://$PROJECT_DIR$/测试自己的图像识别模型.py" />
-    <entry file="file://$PROJECT_DIR$/config/googlenet/solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/caffenet/deploy.prototxt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/caffenet/solver.prototxt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/googlenet/deploy.prototxt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/caffe/lib/python2.7/site-packages/skimage/transform/_warps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -463,25 +405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/label.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_lmdb.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_recognition_googLenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" lean-forward="true" selection-end-line="72" />
-          <folding>
-            <element signature="e#120#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image_recognition_googLenet.py" />
     <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -500,9 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#17#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,6 +431,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
           <caret line="420" column="7" lean-forward="true" selection-start-line="420" selection-start-column="7" selection-end-line="420" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hh.py" />
+    <entry file="file://$PROJECT_DIR$/ff.py" />
+    <entry file="file://$PROJECT_DIR$/fff.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/caffe/python/caffe/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -524,47 +463,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/caffe/python/caffe/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding>
-            <element signature="e#17#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
         </state>
       </provider>
     </entry>
