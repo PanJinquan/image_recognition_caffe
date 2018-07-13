@@ -5,7 +5,7 @@ import numpy as np
 import sys,caffe
 
 if len(sys.argv)==3:
-    print "Usage: python convert_mean.py mean.binaryproto mean.npy"
+    print("Usage: python convert_mean.py mean.binaryproto mean.npy")
     bin_file=sys.argv[1]
     out_file=sys.argv[2]
 else:
