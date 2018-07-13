@@ -15,15 +15,15 @@ from PIL import Image
 import sys
 
 
-# googlenet网络结构描述文件
-deploy_file = 'config/googlenet/deploy.prototxt'
-# 训练好的模型
-model_file = 'models/googlenet/bvlc_googlenet_iter_190000.caffemodel'
+# # googlenet网络结构描述文件
+# deploy_file = 'config/googlenet/deploy.prototxt'
+# # 训练好的模型
+# model_file = 'models/googlenet/bvlc_googlenet_iter_190000.caffemodel'
 
-# #caffenet网络结构描述文件
-# deploy_file = 'config/caffenet/deploy.prototxt'
-# #训练好的模型
-# model_file = 'models/caffenet/caffenet_train_iter_5000.caffemodel'
+#caffenet网络结构描述文件
+deploy_file = 'config/caffenet/deploy.prototxt'
+#训练好的模型
+model_file = 'models/caffenet/caffenet_train_iter_5000.caffemodel'
 
 # 均值文件(若没有均值文件,则用[104, 117, 123]代替)
 mean_file='mean/image_mean.npy'
@@ -65,15 +65,17 @@ for root, dirs, files in os.walk('test_image/'):
         print('******************************************************')
         print(image_path)
 
+        # 预测图片类别
+        prediction = net.predict([input_image])
+        pre_label=prediction[0].argmax()
+        print('predicted class:%d-->%s'%(pre_label,labels[pre_label]))
+
         # 显示图片
         img = Image.open(image_path)
         plt.imshow(img)
+        plt.title(str(pre_label)+':'+str(labels[pre_label]))
         plt.axis('off')
         plt.show()
-
-        # 预测图片类别
-        prediction = net.predict([input_image])
-        print 'predicted class:', prediction[0].argmax()
 
         # 输出概率最大的前5个预测结果
         top_k = prediction[0].argsort()[-5:][::-1]
