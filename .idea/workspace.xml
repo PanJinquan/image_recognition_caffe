@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6a9a2c0f-cbd2-4148-b4c1-d408a798efb9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/caffenet/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/config/caffenet/solver.prototxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/googlenet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_recognition_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_recognition_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean/image_mean.binaryproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean/image_mean.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.caffemodel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.solverstate" beforeDir="false" afterPath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.solverstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/log/caffe.log" beforeDir="false" afterPath="$PROJECT_DIR$/models/log/caffe.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_linux.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train_linux.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,19 +24,46 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/image_recognition_caffe$draft_file.coverage" NAME="draft_file Coverage Results" MODIFIED="1531288380839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_test.coverage" NAME="image_recognition_test Coverage Results" MODIFIED="1531446663722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_test.coverage" NAME="image_recognition_test Coverage Results" MODIFIED="1531798983457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$pytest.coverage" NAME="pytest Coverage Results" MODIFIED="1529925641614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$image_recognition_googLenet.coverage" NAME="image_recognition_googLenet Coverage Results" MODIFIED="1531287891297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/image_recognition_caffe$convert_mean.coverage" NAME="convert_mean Coverage Results" MODIFIED="1531284351477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mean" />
-    <SUITE FILE_PATH="coverage/image_recognition_caffe$.coverage" NAME="测试自己的图像识别模型 Coverage Results" MODIFIED="1529979125569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/image_recognition_caffe$.coverage" NAME="标签制作 Coverage Results" MODIFIED="1531479412932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="image_recognition_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+            <state relative-caret-position="136">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="标签制作.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/标签制作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_image_mean.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_linux.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_linux.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -47,7 +85,6 @@
       <list>
         <option value="$PROJECT_DIR$/train.sh" />
         <option value="$PROJECT_DIR$/test.sh" />
-        <option value="$PROJECT_DIR$/标签制作.py" />
         <option value="$PROJECT_DIR$/pytest.py" />
         <option value="$PROJECT_DIR$/测试自己的图像识别模型.py" />
         <option value="$PROJECT_DIR$/config/googlenet/train.prototxt" />
@@ -60,6 +97,9 @@
         <option value="$PROJECT_DIR$/hh.py" />
         <option value="$PROJECT_DIR$/ff.py" />
         <option value="$PROJECT_DIR$/fff.py" />
+        <option value="$PROJECT_DIR$/train_linux.sh" />
+        <option value="$PROJECT_DIR$/config/caffenet/solver.prototxt" />
+        <option value="$PROJECT_DIR$/标签制作.py" />
         <option value="$PROJECT_DIR$/image_recognition_test.py" />
       </list>
     </option>
@@ -73,7 +113,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="178" />
     <option name="y" value="114" />
     <option name="width" value="1344" />
@@ -91,6 +131,22 @@
               <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="caffenet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -100,7 +156,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SmartAlbum/AVA_dataset" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -123,7 +179,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.image_recognition_test">
-    <configuration name="测试自己的图像识别模型" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="标签制作" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="image_recognition_caffe" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +192,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试自己的图像识别模型.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/标签制作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,15 +294,16 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.测试自己的图像识别模型" />
       <item itemvalue="Python.pytest" />
       <item itemvalue="Python.image_recognition_test" />
       <item itemvalue="Python.convert_mean" />
       <item itemvalue="Python.draft_file" />
+      <item itemvalue="Python.标签制作" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.image_recognition_test" />
+        <item itemvalue="Python.标签制作" />
         <item itemvalue="Python.draft_file" />
         <item itemvalue="Python.convert_mean" />
         <item itemvalue="Python.pytest" />
@@ -267,19 +324,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="178" y="114" width="1344" height="850" extended-state="0" />
+    <frame x="0" y="-7" width="1680" height="994" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35588634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3556059" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22023809" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.14136904" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.11309524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36817104" />
@@ -318,7 +376,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/image_recognition_test.py</url>
-          <line>28</line>
+          <line>32</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -333,6 +391,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_linux.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/标签制作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -374,16 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/train.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37030" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/val.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19882" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/googlenet/train.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -398,21 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/标签制作.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_googLenet.py" />
-    <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/show_log.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -466,10 +535,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/caffenet/solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_linux.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/标签制作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
