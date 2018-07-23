@@ -18,7 +18,7 @@ VAL_DATA_ROOT=$pwd_path/dataset/val/     #val原始数据图片集的路径
 ######################################################################
 # Set RESIZE=true to resize the images to 60 x 60. Leave as false if images have
 # already been resized using another tool.
-RESIZE=true
+RESIZE=false
 if $RESIZE; then
   RESIZE_HEIGHT=227
   RESIZE_WIDTH=227

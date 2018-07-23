@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a2c0f-cbd2-4148-b4c1-d408a798efb9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/image_recognition_caffe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image_recognition_caffe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/caffenet/solver.prototxt" beforeDir="false" afterPath="$PROJECT_DIR$/config/caffenet/solver.prototxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/val.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/googlenet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_recognition_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/image_recognition_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mean/image_mean.binaryproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mean/image_mean.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.caffemodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.solverstate" beforeDir="false" afterPath="$PROJECT_DIR$/models/caffenet/caffenet_train_iter_5000.solverstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_lmdb_v2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create_lmdb_v2.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/log/caffe.log" beforeDir="false" afterPath="$PROJECT_DIR$/models/log/caffe.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_linux.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train_linux.sh" afterDir="false" />
     </list>
@@ -32,11 +26,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="image_recognition_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image_recognition_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="271">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="e#506#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solver.prototxt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/caffenet_spp/solver.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_val.prototxt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/caffenet_spp/train_val.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1409">
+              <caret line="267" selection-start-line="267" selection-end-line="290" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.prototxt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/caffenet_spp/deploy.prototxt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -44,26 +77,8 @@
       <file leaf-file-name="标签制作.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/标签制作.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="225">
               <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_image_mean.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create_image_mean.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_linux.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_linux.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -101,6 +116,12 @@
         <option value="$PROJECT_DIR$/config/caffenet/solver.prototxt" />
         <option value="$PROJECT_DIR$/标签制作.py" />
         <option value="$PROJECT_DIR$/image_recognition_test.py" />
+        <option value="$PROJECT_DIR$/config/caffenet-spp/solver.prototxt" />
+        <option value="$PROJECT_DIR$/create_lmdb_v2.sh" />
+        <option value="$PROJECT_DIR$/config/caffenet_spp/solver.prototxt" />
+        <option value="$PROJECT_DIR$/config/caffenet_spp/train_val.prototxt" />
+        <option value="$PROJECT_DIR$/config/caffenet_spp/README.md" />
+        <option value="$PROJECT_DIR$/config/caffenet_spp/deploy.prototxt" />
       </list>
     </option>
   </component>
@@ -140,7 +161,7 @@
               <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_recognition_caffe" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="caffenet" type="462c0819:PsiDirectoryNode" />
+              <item name="caffenet_spp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="image_recognition_caffe" type="b2602c69:ProjectViewProjectNode" />
@@ -159,7 +180,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -324,7 +345,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-7" width="1680" height="994" extended-state="6" />
+    <frame x="0" y="-7" width="1920" height="1024" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -334,10 +355,10 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3556059" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22023809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21979167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.11309524" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.11302083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36817104" />
@@ -391,6 +412,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#506#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/标签制作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -460,13 +498,7 @@
     <entry file="file://$PROJECT_DIR$/shell_test.sh" />
     <entry file="file://$PROJECT_DIR$/train.sh" />
     <entry file="file://$PROJECT_DIR$/测试自己的图像识别模型.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/caffe/lib/python2.7/site-packages/skimage/transform/_warps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/caffe/lib/python2.7/site-packages/skimage/transform/_warps.py" />
     <entry file="file://$PROJECT_DIR$/config/googlenet/train.prototxt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -496,24 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1034416172/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5220">
-          <caret line="420" column="7" lean-forward="true" selection-start-line="420" selection-start-column="7" selection-end-line="420" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1034416172/__builtin__.py" />
     <entry file="file://$PROJECT_DIR$/hh.py" />
     <entry file="file://$PROJECT_DIR$/ff.py" />
     <entry file="file://$PROJECT_DIR$/fff.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/caffe/python/caffe/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -542,31 +560,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/caffenet/solver.prototxt">
+    <entry file="file://$PROJECT_DIR$/标签制作.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_linux.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/标签制作.py">
+    <entry file="file://$PROJECT_DIR$/config/caffenet/solver.prototxt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="271">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#506#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_lmdb_v2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/caffenet_spp/solver.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/caffenet_spp/train_val.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1409">
+          <caret line="267" selection-start-line="267" selection-end-line="290" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/caffenet_spp/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/caffenet_spp/deploy.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
