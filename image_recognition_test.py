@@ -5,7 +5,7 @@
   [2]当输入数据为RGB图像,float32,[0,1],则需要转换:
     --transformer.set_raw_scale('data',255)       # 缩放至0~255
     --transformer.set_channel_swap('data',(2,1,0))# 将RGB变换到BGR
-  [3]当输入数据是RGB图像,int8类型,[0,255],则输入数据之前必须乘以*1.0转换为float32
+  [3]当输入数据是RGB图像,uint8类型,[0,255],则输入数据之前必须乘以*1.0转换为float32
     --transformer.set_raw_scale('data',1.0)       # 数据不用缩放了
     --transformer.set_channel_swap('data',(2,1,0))#将RGB变换到BGR
 '''
@@ -27,7 +27,7 @@ import sys
 #caffenet网络结构描述文件
 deploy_file = 'config/caffenet/deploy.prototxt'
 #训练好的模型
-model_file = 'models/caffenet/caffenet_train_iter_3600.caffemodel'
+model_file = 'models/caffenet/caffenet_train_iter_5000.caffemodel'
 
 # 均值文件(若没有均值文件,则用[104, 117, 123]代替)
 mean_file='mean/image_mean.npy'
@@ -42,7 +42,7 @@ else:
 # caffe.set_mode_gpu()
 caffe.set_mode_cpu()
 
-# 定义网络模型
+# 这里直接使用caffe封装好分类器进行图像分类,可以查看源码
 net = caffe.Classifier(deploy_file,  # 调用deploy文件
                        model_file,  # 调用模型文件
                        mean=image_mean,# 调用均值文件
@@ -69,22 +69,30 @@ for root, dirs, files in os.walk('test_image/'):
         print(image_path)
 
         # 预测图片类别,输入数据要求float32 [0,255]
-        prediction = net.predict([input_image])#输入数据float32,[0,1],所以raw_scale=255
-        pre_label=prediction[0].argmax()
-        print('predicted class:%d-->%s'%(pre_label,labels[pre_label]))
+        # output_prob=array([[1.3032453e-08, 1.9998259e-10, 2.7216041e-07, 6.3294447e-10, 9.9999982e-01]], dtype=float32))
+        output= net.predict([input_image])#输入数据float32,[0,1],所以raw_scale=255
+        print(output)
+        output_prob=output[0]
+        print(output_prob)
+
+        # 批处理中第一个图像的输出概率向量
+        # output_prob = output['prob'][0]
+
+        pre_label = output_prob.argmax()
+
+        print('predicted class:%d-->%s' % (pre_label, labels[pre_label]))
 
         # 显示图片
         img = Image.open(image_path)
         plt.imshow(img)
-        plt.title(str(pre_label)+':'+str(labels[pre_label]))
+        plt.title(str(pre_label) + ':' + str(labels[pre_label]))
         plt.axis('off')
         plt.show()
-
         # 输出概率最大的前5个预测结果
-        top_k = prediction[0].argsort()[-5:][::-1]
+        top_k = output_prob.argsort()[-5:][::-1]
         for node_id in top_k:
             # 获取分类名称
             human_string = labels[node_id]
             # 获取该分类的置信度
-            score = prediction[0][node_id]
+            score = output_prob[node_id]
             print('%s (score = %.5f)' % (human_string, score))
