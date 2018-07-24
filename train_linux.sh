@@ -11,6 +11,6 @@
 #  -命令&， 是让该命令在后台执行
 ##(2) 2>> models/log/caffe.log
 /home/ubuntu/caffe/build/tools/caffe  train \
---solver=config/caffenet/solver.prototxt \
+--solver=config/caffenet_spp/solver.prototxt \
 2>&1| tee models/log/caffe.log  #\
 #--weights=models/caffenet/bvlc_googlenet.caffemodel
